@@ -178,7 +178,7 @@ test('installPackages unit', t => {
     }, err => {
       t.match(
         err.message,
-        /Install for codefail failed with code 123/,
+        /Install for \[ \'codefail\' \] failed with code 123/,
         'npm install failure has helpful error message'
       )
       t.equal(err.exitCode, 123, 'error has exitCode')
