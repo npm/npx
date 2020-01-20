@@ -24,5 +24,7 @@
   "shell": "シェル",
   "package": "パッケージ",
   "npx: installed %s in %ss": "npx: %s個のパッケージを%s秒でインストールしました。",
-  "Suppress output from npx itself. Subcommands will not be affected.": "npx自体の標準出力を抑止します。 サブコマンドは影響を受けません。"
+  "Suppress output from npx itself. Subcommands will not be affected.": "npx自体の標準出力を抑止します。 サブコマンドは影響を受けません。",
+  "Extra node argument when calling a node binary.": "nodeのバイナリーを実行する際に追加するnodeの引数。",
+  "Always spawn a child process to execute the command.": "コマンドを実行する際に、常にchild processで実行する。"
 }
