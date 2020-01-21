@@ -8,14 +8,14 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Bug Fixes
 
-* **i18n:** fix korean; 쉘 -> 셸 ([#163](https://github.com/npm/npx/issues/163)) ([11d9fe0](https://github.com/npm/npx/commit/11d9fe0))
-* **spawn:** spawn child processes with node without relying on the shebang. ([#174](https://github.com/npm/npx/issues/174)) ([cba97bb](https://github.com/npm/npx/commit/cba97bb))
-* **windows:** Allow spaces in the node path when using --node-arg ([#173](https://github.com/npm/npx/issues/173)) ([fe0d48a](https://github.com/npm/npx/commit/fe0d48a)), closes [#170](https://github.com/npm/npx/issues/170)
+* **i18n:** fix korean; 쉘 -> 셸 ([#163](https://github.com/zkat/npx/issues/163)) ([11d9fe0](https://github.com/npm/npx/commit/11d9fe0))
+* **spawn:** spawn child processes with node without relying on the shebang. ([#174](https://github.com/zkat/npx/issues/174)) ([cba97bb](https://github.com/npm/npx/commit/cba97bb))
+* **windows:** Allow spaces in the node path when using --node-arg ([#173](https://github.com/zkat/npx/issues/173)) ([fe0d48a](https://github.com/npm/npx/commit/fe0d48a)), closes [#170](https://github.com/zkat/npx/issues/170)
 
 
 ### Features
 
-* **i18n:** add translation ([#159](https://github.com/npm/npx/issues/159)) ([5da008b](https://github.com/npm/npx/commit/5da008b))
+* **i18n:** add translation ([#159](https://github.com/zkat/npx/issues/159)) ([5da008b](https://github.com/npm/npx/commit/5da008b))
 
 
 
@@ -30,7 +30,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Features
 
-* **spawn:** add --always-spawn to opt out of process takeover optimization feature ([#172](https://github.com/npm/npx/issues/172)) ([c0d6abc](https://github.com/npm/npx/commit/c0d6abc))
+* **spawn:** add --always-spawn to opt out of process takeover optimization feature ([#172](https://github.com/zkat/npx/issues/172)) ([c0d6abc](https://github.com/npm/npx/commit/c0d6abc))
 
 
 
@@ -40,8 +40,8 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Bug Fixes
 
-* **i18n:** Improve French localization ([#158](https://github.com/npm/npx/issues/158)) ([c88823e](https://github.com/npm/npx/commit/c88823e))
-* **windows:** on Windows, throw useful error when package contains no binaries([#142](https://github.com/npm/npx/issues/142)) ([a69276e](https://github.com/npm/npx/commit/a69276e)), closes [#137](https://github.com/npm/npx/issues/137)
+* **i18n:** Improve French localization ([#158](https://github.com/zkat/npx/issues/158)) ([c88823e](https://github.com/npm/npx/commit/c88823e))
+* **windows:** on Windows, throw useful error when package contains no binaries([#142](https://github.com/zkat/npx/issues/142)) ([a69276e](https://github.com/npm/npx/commit/a69276e)), closes [#137](https://github.com/zkat/npx/issues/137)
 
 
 
@@ -51,11 +51,11 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Bug Fixes
 
-* **i18n:** Fix Korean locale ([#130](https://github.com/npm/npx/issues/130)) ([752db48](https://github.com/npm/npx/commit/752db48))
-* **index:** remove extraneous logging on Windows ([#136](https://github.com/npm/npx/issues/136)) ([357e6ab](https://github.com/npm/npx/commit/357e6ab)), closes [#131](https://github.com/npm/npx/issues/131)
+* **i18n:** Fix Korean locale ([#130](https://github.com/zkat/npx/issues/130)) ([752db48](https://github.com/npm/npx/commit/752db48))
+* **index:** remove extraneous logging on Windows ([#136](https://github.com/zkat/npx/issues/136)) ([357e6ab](https://github.com/npm/npx/commit/357e6ab)), closes [#131](https://github.com/zkat/npx/issues/131)
 * **license:** change npx license to ISC ([a617d7b](https://github.com/npm/npx/commit/a617d7b))
 * **parse-args:** fix version thing for yargs ([30677ed](https://github.com/npm/npx/commit/30677ed))
-* **prefix:** Handle node_modules without package.json ([#128](https://github.com/npm/npx/issues/128)) ([f64ae43](https://github.com/npm/npx/commit/f64ae43)), closes [/github.com/babel/babel/issues/4066#issuecomment-336705199](https://github.com//github.com/babel/babel/issues/4066/issues/issuecomment-336705199)
+* **prefix:** Handle node_modules without package.json ([#128](https://github.com/zkat/npx/issues/128)) ([f64ae43](https://github.com/npm/npx/commit/f64ae43)), closes [/github.com/babel/babel/issues/4066#issuecomment-336705199](https://github.com//github.com/babel/babel/issues/4066/issues/issuecomment-336705199)
 * **standard:** get things in line with standard 11 ([6cf8e88](https://github.com/npm/npx/commit/6cf8e88))
 
 
@@ -81,7 +81,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Bug Fixes
 
-* **exec:** fixed unix binary pathing issues (#120) ([f80a970](https://github.com/npm/npx/commit/f80a970)), closes [#120](https://github.com/npm/npx/issues/120)
+* **exec:** fixed unix binary pathing issues (#120) ([f80a970](https://github.com/npm/npx/commit/f80a970)), closes [#120](https://github.com/zkat/npx/issues/120)
 
 
 ### Features
@@ -127,7 +127,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Bug Fixes
 
-* **i18n:** minor fixes to ru locale (#92) ([f4d5051](https://github.com/npm/npx/commit/f4d5051)), closes [#92](https://github.com/npm/npx/issues/92)
+* **i18n:** minor fixes to ru locale (#92) ([f4d5051](https://github.com/npm/npx/commit/f4d5051)), closes [#92](https://github.com/zkat/npx/issues/92)
 
 
 ### Features
@@ -209,7 +209,7 @@ All notable changes to this project will be documented in this file. See [standa
 ### Bug Fixes
 
 * **binpath:** fix calling binaries from subdirectories ([f185d0d](https://github.com/npm/npx/commit/f185d0d))
-* **i18n:** Fix typos in french locale (#78) ([f277fc7](https://github.com/npm/npx/commit/f277fc7)), closes [#78](https://github.com/npm/npx/issues/78)
+* **i18n:** Fix typos in french locale (#78) ([f277fc7](https://github.com/npm/npx/commit/f277fc7)), closes [#78](https://github.com/zkat/npx/issues/78)
 
 
 ### Features
@@ -226,11 +226,11 @@ All notable changes to this project will be documented in this file. See [standa
 ### Bug Fixes
 
 * **call:** only npm run env if package.json exists ([370f395](https://github.com/npm/npx/commit/370f395))
-* **i18n:** Fix grammar and spelling for de.json (#63) ([b14020f](https://github.com/npm/npx/commit/b14020f)), closes [#63](https://github.com/npm/npx/issues/63)
+* **i18n:** Fix grammar and spelling for de.json (#63) ([b14020f](https://github.com/npm/npx/commit/b14020f)), closes [#63](https://github.com/zkat/npx/issues/63)
 * **i18n:** wording revisions for Brazilian Portuguese (#75) ([b5dc536](https://github.com/npm/npx/commit/b5dc536))
 * **npm:** path directly to the npm-cli.js script ([d531206](https://github.com/npm/npx/commit/d531206))
 * **rimraf:** fix rimraf.sync is not a function issue ([d2ecba3](https://github.com/npm/npx/commit/d2ecba3))
-* **windows:** get npx working well on Windows again (#69) ([6cfb8de](https://github.com/npm/npx/commit/6cfb8de)), closes [#60](https://github.com/npm/npx/issues/60) [#58](https://github.com/npm/npx/issues/58) [#62](https://github.com/npm/npx/issues/62)
+* **windows:** get npx working well on Windows again (#69) ([6cfb8de](https://github.com/npm/npx/commit/6cfb8de)), closes [#60](https://github.com/zkat/npx/issues/60) [#58](https://github.com/zkat/npx/issues/58) [#62](https://github.com/zkat/npx/issues/62)
 
 
 ### Features
@@ -238,7 +238,7 @@ All notable changes to this project will be documented in this file. See [standa
 * **i18n:** add Czech translation (#76) ([8a0b3f6](https://github.com/npm/npx/commit/8a0b3f6))
 * **i18n:** Add Turkish translation (#73) ([26e5edf](https://github.com/npm/npx/commit/26e5edf))
 * **i18n:** Added support for Italian language (#71) ([6883e75](https://github.com/npm/npx/commit/6883e75))
-* **i18n:** Fix Romanian translation (#70) ([fd6bbcf](https://github.com/npm/npx/commit/fd6bbcf)), closes [#70](https://github.com/npm/npx/issues/70)
+* **i18n:** Fix Romanian translation (#70) ([fd6bbcf](https://github.com/npm/npx/commit/fd6bbcf)), closes [#70](https://github.com/zkat/npx/issues/70)
 * **node:** add --node-arg support to pass flags to node for script binaries (#77) ([65665bd](https://github.com/npm/npx/commit/65665bd))
 
 
@@ -249,7 +249,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Bug Fixes
 
-* **i18n:** Fix some Catalan translations (#59) ([11c8a19](https://github.com/npm/npx/commit/11c8a19)), closes [#59](https://github.com/npm/npx/issues/59)
+* **i18n:** Fix some Catalan translations (#59) ([11c8a19](https://github.com/npm/npx/commit/11c8a19)), closes [#59](https://github.com/zkat/npx/issues/59)
 
 
 
@@ -416,7 +416,7 @@ multiple non-matching binaries, but that should be rare.
 * **local:** `npx ./something` will now execute `./something` as a
 binary or script instead of trying to install it as npm would. Other behavior
 related to local path deps has likewise been changed. See
-[#49](https://github.com/npm/npx/issues/49) for a detailed explanation
+[#49](https://github.com/zkat/npx/issues/49) for a detailed explanation
 of all the various cases and how each of them is handled.
 
 
@@ -467,7 +467,7 @@ of all the various cases and how each of them is handled.
 * **call:** stop parsing -c for commands + fix corner cases ([bd4e538](https://github.com/npm/npx/commit/bd4e538))
 * **child:** exec does not have the information needed to correctly escape its args ([6714992](https://github.com/npm/npx/commit/6714992))
 * **guessCmdName:** tests failed because of lazy npa ([53a0119](https://github.com/npm/npx/commit/53a0119))
-* **i18n:** gender inclusiveness fix for french version (#37) ([04920ae](https://github.com/npm/npx/commit/04920ae)), closes [#37](https://github.com/npm/npx/issues/37)
+* **i18n:** gender inclusiveness fix for french version (#37) ([04920ae](https://github.com/npm/npx/commit/04920ae)), closes [#37](https://github.com/zkat/npx/issues/37)
 * **i18n:** typo 😇 (#38) ([ede4a53](https://github.com/npm/npx/commit/ede4a53))
 * **install:** handle JSON parsing failures ([bec2887](https://github.com/npm/npx/commit/bec2887))
 * **output:** stop printing out Command Failed messages ([873cffe](https://github.com/npm/npx/commit/873cffe))
