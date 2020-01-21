@@ -148,7 +148,7 @@ Huge thanks to [Kwyn Meagher](https://blog.kwyn.io) for generously donating the 
 
 ## AUTHOR
 
-Written by [Kat Marchan](https://github.com/npm).
+Written by [Kat Marchan](https://github.com/zkat).
 
 ## REPORTING BUGS
 
