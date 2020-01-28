@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="10.2.2"></a>
+## [10.2.2](https://github.com/npm/npx/compare/v10.2.1...v10.2.2) (2020-01-28)
+
+
+### Bug Fixes
+
+* correct Kat's github url ([9a23db1](https://github.com/npm/npx/commit/9a23db1))
+* install latest npm on travis for node 6 ([e0eb3cb](https://github.com/npm/npx/commit/e0eb3cb))
+* Update changelog to fix old issue links ([3733137](https://github.com/npm/npx/commit/3733137))
+
+
+
 <a name="10.2.0"></a>
 # [10.2.0](https://github.com/npm/npx/compare/v10.1.1...v10.2.0) (2018-04-13)
 
