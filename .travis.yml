@@ -7,7 +7,7 @@ node_js:
   - "6"
 
 before_install:
-  - npm install -g npm
+  - npm install -g npm@latest
 
 cache:
   directories:
