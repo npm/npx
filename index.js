@@ -339,9 +339,13 @@ function findNodeScript (existing, opts) {
           }, err => {
             return promisify(fs.close)(fd).then(() => { throw err })
           })
-        }).then(() => {
-          const re = /#!\s*(?:\/usr\/bin\/env\s*node|\/usr\/local\/bin\/node|\/usr\/bin\/node)\s*\r?\n/i
-          return buf.toString('utf8').match(re) && existing
+        }).then(function executableHeaderExists () {
+          const executableHeader = /#!\s*(?:\/usr\/bin\/env\s*node|\/usr\/local\/bin\/node|\/usr\/bin\/node)\s*\r?\n/i
+          if (buf.toString('utf8').match(executableHeader)) {
+            return existing
+          } else {
+            throw new Error(Y()`Expected shebang not found, check if ${existing} contains: "#!/usr/bin/env node"`)
+          }
         })
       } else if (process.platform === 'win32') {
         const buf = Buffer.alloc(1000)

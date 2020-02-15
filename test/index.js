@@ -242,9 +242,13 @@ test('findNodeScript', t => {
     } else {
       t.equal(script, NPX_PATH, 'existing returned as-is on *nix')
     }
-    return main._findNodeScript(__filename).then(script => {
-      t.notOk(script, 'files that are not standalone node scripts are false')
-    })
+    return main._findNodeScript(__filename)
+      .then(script => {
+        t.fail('files that are not standalone node scripts should trigger error')
+      })
+      .catch(err => {
+        t.equal(err.message, `Expected shebang not found, check if ${__filename} contains: "#!/usr/bin/env node"`)
+      })
   }).then(() => {
     return main._findNodeScript(null).then(bool => {
       t.notOk(bool, 'no node script found if existing is null')
