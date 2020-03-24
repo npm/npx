@@ -17,9 +17,7 @@
     "postrelease": "npm publish && git push --follow-tags",
     "pretest": "standard *.js test bin/*.js locales",
     "release": "standard-version -s",
-    "test": "cross-env NPX_UPDATE_LOCALE_FILES=true LC_ALL=en nyc --all -- tap -J test/*.js",
-    "update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
-    "update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+    "test": "cross-env NPX_UPDATE_LOCALE_FILES=true LC_ALL=en nyc --all -- tap -J test/*.js"
   },
   "repository": "https://github.com/npm/npx",
   "keywords": [
@@ -57,9 +55,7 @@
     "standard": "^11.0.0",
     "standard-version": "^4.3.0",
     "tacks": "^1.2.6",
-    "tap": "^11.1.2",
-    "weallbehave": "^1.2.0",
-    "weallcontribute": "^1.0.8"
+    "tap": "^11.1.2"
   },
   "config": {
     "nyc": {
