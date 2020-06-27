@@ -29,6 +29,9 @@ module.exports.spawn = spawn
 function spawn (cmd, args, opts) {
   opts = opts || {}
   opts.shell = opts.shell || process.platform === 'win32'
+  if (process.platform === 'win32') {
+    args = args.map(arg => escapeArg(arg))
+  }
   return new Promise((resolve, reject) => {
     const child = cp.spawn(cmd, args, opts)
     let stdout = ''
