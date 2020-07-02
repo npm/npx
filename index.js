@@ -72,7 +72,7 @@ function npx (argv) {
         // Some npm packages need to be installed. Let's install them!
         return ensurePackages(argv.package, argv).then(results => {
           if (results && results.added && results.updated && !argv.q) {
-            console.error(Y()`npx: installed ${
+            console.log(Y()`npx: installed ${
               results.added.length + results.updated.length
             } in ${(Date.now() - startTime) / 1000}s`)
           }
