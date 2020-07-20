@@ -53,7 +53,7 @@
     "nyc": "^11.4.1",
     "require-inject": "^1.4.0",
     "standard": "^11.0.0",
-    "standard-version": "^4.3.0",
+    "standard-version": "^8.0.1",
     "tacks": "^1.2.6",
     "tap": "^11.1.2"
   },
