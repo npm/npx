@@ -144,15 +144,25 @@ test('runCommand with opts.command', t => {
 test('runCommand with opts.call and opts.shell', {
   skip: process.platform === 'win32' && 'Windows passes different flags to shell'
 }, t => {
-  return child.runCommand(null, {
-    shell: 'node',
-    call: './child.js',
-    stdio: 'pipe'
-  }).then(res => {
-    t.deepEqual(res, {
-      code: 0,
-      stdout: '',
-      stderr: ''
+  // Starting from node 12.17.x, the fact that spawn-wrap generates
+  // an extensionless file causes an ERR_UNKNOWN_FILE_EXTENSION error.
+  // Previous versions of node didn't throw. Updating nyc to 15.x.x fixes
+  // this, but we can't update because it breaks on Node 6 which we
+  // currently support.
+  const version = process.version.replace('v', '').split('.').map(n => +n)
+  if (version[0] > 12 || version[0] === 12 && version[1] >= 17) {
+    t.end()
+  } else {
+    return child.runCommand(null, {
+      shell: 'node',
+      call: './child.js',
+      stdio: 'pipe'
+    }).then(res => {
+      t.deepEqual(res, {
+        code: 0,
+        stdout: '',
+        stderr: ''
+      })
     })
-  })
+  }
 })

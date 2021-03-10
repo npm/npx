@@ -1,4 +1,6 @@
-[![npm](https://img.shields.io/npm/v/npx.svg)](https://npm.im/npx) [![license](https://img.shields.io/npm/l/npx.svg)](https://npm.im/npx) [![Travis](https://img.shields.io/travis/zkat/npx.svg)](https://travis-ci.org/zkat/npx) [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/zkat/npx?svg=true)](https://ci.appveyor.com/project/zkat/npx) [![Coverage Status](https://coveralls.io/repos/github/zkat/npx/badge.svg?branch=latest)](https://coveralls.io/github/zkat/npx?branch=latest)
+⚠️ DEPRECATED: This project has been deprecated - **npx** is now part of the **[npm cli](https://github.com/npm/cli)**
+
+[![npm](https://img.shields.io/npm/v/npx.svg)](https://npm.im/npx) [![license](https://img.shields.io/npm/l/npx.svg)](https://npm.im/npx) [![Travis](https://img.shields.io/travis/npm/npx.svg)](https://travis-ci.org/npm/npx) [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/npm/npx?svg=true)](https://ci.appveyor.com/project/npm/npx) [![Coverage Status](https://coveralls.io/repos/github/npm/npx/badge.svg?branch=latest)](https://coveralls.io/github/npm/npx?branch=latest)
 
 # npx(1) -- execute npm package binaries
 

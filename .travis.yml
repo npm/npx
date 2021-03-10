@@ -4,6 +4,11 @@ node_js:
   - "12"
   - "10"
   - "8"
+  - "6"
+
+before_install:
+  - npm install -g npm@latest
+
 cache:
   directories:
   - $HOME/.npm

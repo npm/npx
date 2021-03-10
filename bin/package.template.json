@@ -16,7 +16,7 @@
     "npm bin",
     "cli"
   ],
-  "repository": "https://github.com/zkat/npx",
+  "repository": "https://github.com/npm/npx",
   "author": {
     "name": "Kat Marchán",
     "email": "kzm@sykosomatic.org",
