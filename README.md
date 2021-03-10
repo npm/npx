@@ -154,7 +154,7 @@ Written by [Kat Marchan](https://github.com/zkat).
 
 ## REPORTING BUGS
 
-Please file any relevant issues [on Github.](https://github.com/npm/npx)
+Please file any relevant issues [against the npm/cli repo.](https://github.com/npm/cli)
 
 ## LICENSE
 
